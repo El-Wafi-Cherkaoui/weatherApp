@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 1px solid; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: #dceaeca8;
+}
+.container{
+    width: 40vw;
+    height: 90vh;
+    overflow: hidden;
+
+    border-radius: 1vw;
+    box-shadow: -.5vw 1vw .5vw #7EACB5;
+    background-color: #7eacb549;
+}
+.search_cont{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    padding: 1vw;
+    gap: 1vw;
+    background-color:#C96868 ;
+    box-shadow: 0vw .5vw .1vw #7EACB5;
+}
+.search_cont > * {
+    border-radius: 2vw;
+}
+#city_name{
+    width: 70%;
+    padding: .5vh 1vw;
+    outline: none;
+    border: none;
+    box-shadow: .1vw .2vw .1vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #C96868;
+
+    transition: all .2s ease-in-out;
+}
+#city_name:focus{
+    width: 75%;
+}
+#search_btn{
+    padding: .5vh 1vw;
+    background-color: #FFF4EA;
+    border: .2vw solid #C96868;
+    box-shadow: .3vw .2vw .1vw #a34141;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+#search_btn:hover{
+    color: #C96868;
+    background-color: #C96868;
+    border-color: #7EACB5;
+    box-shadow: -.1vw .2vw .1vw #7EACB5;
+
+}
+#search_logo{
+    width: 2vw;
+}
+#search_logo:hover{
+    width: 2vw;
+    color: black;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    gap: .5vh;
+}
+.info h1{
+    color: #C96868;
+    text-shadow: #7EACB5 .3vw .2vw .1vw;
+    font-size: 3rem;
+}
+.info h2{
+    font-size: 2.5rem;
+    color: #C96868;
+    text-shadow: .2vw .1vw .1vw #7EACB5;
+}
+#weather_img{
+    width: 15vw;
+    margin: auto;
+}
+.details{
+    display: flex;
+    gap: 20%;
+    padding: 1vw;
+}
+.details > * {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    padding: 1vw;
+    color: #C96868;
+    margin-top: auto;
+}
+.details img{
+    max-width: 50%;
+    margin-bottom: auto;
+}
+.details span{
+    width: 50%;
+    padding: 1vh 0vw;
+}
+.details h6{
+    font-size: 1rem;
+    border-bottom: .1vw solid #C96868;
+}
