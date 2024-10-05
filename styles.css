@@ -5,7 +5,10 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* border: 1px solid; */
 }
-
+#loading{
+    position: absolute;
+    display: none;
+}
 body{
     display: flex;
     justify-content: center;
@@ -21,7 +24,7 @@ body{
 
     border-radius: 1vw;
     box-shadow: -.5vw 1vw .5vw #7EACB5;
-    background-color: #7eacb549;
+    background-color: #c2d4d8;
 }
 .search_cont{
     display: flex;
